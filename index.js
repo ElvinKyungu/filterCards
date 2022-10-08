@@ -2,6 +2,7 @@ const input = document.getElementById('input');
 let notResult = document.querySelector('.notresult');
 let containerCard = document.querySelector('.cards-container');
 let resultat = document.getElementById('resultat');
+
 var datas= [
     {id:1, nom: "Vander", img:"assets/images/a.jpg"},
     {id:2, nom: "Elvin", img:"assets/images/a.jpg"},
@@ -58,5 +59,4 @@ input.addEventListener('input', ()=>{
         notResult.innerHTML = "<h3>Désolé</h3> <span>Aucun résultat trouvé !</span>";
         notResult.classList.add('active');
     }
-   
 })

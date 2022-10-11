@@ -15,7 +15,6 @@ var datas= [
     {id:9, nom: "Salama", img:"assets/images/a.jpg"},
     {id:10, nom: "Idris", img:"assets/images/a.jpg"},
 ]
-
 let card;
 
 function afficherCard(datas){
